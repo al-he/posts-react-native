@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "lll",
-    "slug": "react-native-lll",
+    "name": "react-native-posts",
+    "slug": "react-native-posts",
     "privacy": "public",
     "sdkVersion": "36.0.0",
     "platforms": [
@@ -23,7 +23,14 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.alksndr.PostsReactNative",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.alksndr.PostsReactNative",
+      "versionCode": 1,
+      "permissions": ["CAMERA", "WRITE_EXTERNAL_STORAGE"]
     }
   }
 }
